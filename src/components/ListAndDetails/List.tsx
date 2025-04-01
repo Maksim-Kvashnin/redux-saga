@@ -1,5 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-import { useEffect } from "react";
+ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import type { listItem } from "./redux/ListAndDetailsSlice";
 import { useSelector, useDispatch } from "react-redux";

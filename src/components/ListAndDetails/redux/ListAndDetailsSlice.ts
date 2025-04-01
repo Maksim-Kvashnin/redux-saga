@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 
 export type listItem = {
-    id: number
+    id: string
     name: string
     price: number
     content?: string

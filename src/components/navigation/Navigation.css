@@ -1,0 +1,22 @@
+.navigation-container {
+    padding: 20px 50px;
+    margin-bottom: 50px;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+    justify-content: center;    
+}
+
+.link {
+    padding: 10px 20px;
+    font-weight: bold;
+    color: inherit;
+    border: 3px solid rgb(131, 144, 47);
+    border-radius: 10px;
+}
+
+.link-active {
+    border: 3px solid rgb(195, 241, 10);
+}
